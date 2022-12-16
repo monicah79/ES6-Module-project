@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  height: 100vh;
+} */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+  margin: 9px 16px;
+  border: 2px solid #000;
+}
+
+.logo {
+  font-size: 21px;
+}
+
+.top-list {
+  display: flex;
+  list-style: none;
+}
+
+.li-li {
+  padding: 0 10px;
+  border-right: 1px solid #000;
+  font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.date {
+    margin: 9px 16px;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.container {
+  margin: 16px;
+}
+
+.books-display {
+  height: 475px;
+}
+
+.aws-bks {
+    font-size: 31px;
+  margin: 16px 0;
+  text-align: center;
+  
+}
+
+.dis-bk {
+    margin-bottom: 36px;
+  border: 2px solid #000;
+  
+  visibility: hidden;
+}
+
+.show-container {
+  visibility: visible;
+}
+
+.bkdiv {
+    padding: 0 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  
+}
+
+.bkdiv .title::before,
+.bkdiv .title::after {
+  content: '"';
+}
+
+.bkdiv .author::before {
+  content: ' by ';
+}
+
+.bkdiv p {
+    font-size: 19px;
+  line-height: 26px;
+  
+}
+
+.bkdiv .rmv-div {
+  margin-left: auto;
+}
+
+.bkdiv:nth-child(odd) {
+  background: #e0e5e9;
+}
+
+.bkdiv .book {
+  display: flex;
+  gap: 3px;
+}
+
+.h2 {
+    margin-top: 8%;
+  font-size: 30px;
+  
+  text-align: center;
+}
+
+.form {
+    margin-bottom: 197px;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+  width: 40%;
+}
+
+form input {
+    margin-bottom: 22px;
+  width: 100%;
+  height: 26px;
+  
+}
+
+.form .btn {
+  text-align: end;
+}
+
+form .add-btn {
+  padding: 6px 9px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.cntct-info {
+  font-size: 31px;
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 52px;
+}
+
+.para-ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.para {
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+
+.contact {
+  margin-bottom: 200px;
+}
+
+.con-ul {
+  padding: 0 42px;
+  font-size: 19px;
+}
+
+.footer {
+  padding: 6px 16px;
+  margin: 9px 16px;
+  border: 2px solid #000;
+}
+
+.footer .copyright {
+  font-size: 21px;
+}
