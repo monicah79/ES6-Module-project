@@ -78,7 +78,7 @@ removeBtn.addEventListener('click', (e) => {
   if (targetBuk !== null && targetBuk !== undefined) {
     const bukNodelist = targetBuk.childNodes;
 
-    const [title, author] = bukNodelist
+    const [title, author] = bukNodelist;
     newBookList.remove(title.innerText, author.innerText);
     localStorage.removeItem('buks');
 
